@@ -1,0 +1,29 @@
+{
+  "name": "web_socket",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node insert_post1.js",
+    "dev": "nodemon insert_post1.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rochanhive/deploy_soc.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rochanhive/deploy_soc/issues"
+  },
+  "homepage": "https://github.com/rochanhive/deploy_soc#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongod": "^2.0.0",
+    "mongodb": "^4.12.1",
+    "socket.io": "^4.5.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "description": ""
+}
